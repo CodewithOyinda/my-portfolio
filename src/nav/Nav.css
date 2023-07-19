@@ -1,0 +1,18 @@
+.link ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+ }
+ .link a {
+     color: var(--link_color);
+     text-decoration: none;
+     
+ }
+ .navs {
+     display: flex;
+     float: right;
+     justify-content: space-between;
+     gap: 2rem;
+ 
+ }

@@ -1,0 +1,53 @@
+.about-me {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.hello {
+    display: flex;
+    gap: 1rem;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.hello h2 {
+    font-size:35px;
+    font-weight:600 ;
+}
+.mine {
+    border-radius: 0.5rem;
+}
+.mine:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+.my-name {
+    padding-top: 30px;
+}
+.my-name p {
+    font-size: 20px;
+    line-height: 1.8rem;
+    padding-bottom: 20px;
+}
+.past {
+    padding-top: 40px;
+}
+.past p {
+    font-size: 20px;
+    line-height: 1.8rem;
+    padding-bottom: 20px;
+}
+.present {
+    padding-top: 40px; 
+}
+.present p {
+    font-size: 20px;
+    line-height: 1.8rem;
+    padding-bottom: 20px;
+}
+.future {
+    padding-top: 40px;
+}
+.future p {
+    font-size: 20px;
+    line-height: 1.8rem;
+    padding-bottom: 20px;
+}

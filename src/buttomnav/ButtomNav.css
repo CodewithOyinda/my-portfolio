@@ -1,0 +1,55 @@
+.contact {
+    padding-top: 50px;
+    border-top: 1px solid #c2bfbc;
+
+}
+.contact p {
+    font-size: 20px;
+    line-height: 1.8rem;
+    padding-bottom: 20px;
+}
+.email-btn {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.copy-btn {
+    border: 2px solid #c2bfbc;
+    border-radius: 2rem;
+    height: 50px;
+    width: 300px;
+    background-color: var(--body_backgroundcolor);
+    color: var(--body_color);
+    letter-spacing: 0.2rem;
+}
+.copy-btn:hover {
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    color: white;
+}
+.socials {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 2rem;
+    padding-bottom: 20px;
+}
+.icon{
+    border: 1px solid #c2bfbc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.icon:hover {
+    cursor: pointer;
+    background-color: #c2bfbc; 
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-top: 1px solid #c2bfbc;
+}

@@ -1,0 +1,45 @@
+.project-div {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.my-projects {
+    padding-top: 50px;
+    padding-bottom: 40px; 
+}
+.my-projects h2 {
+    font-size:35px;
+    font-weight:600 ;
+    padding-bottom: 20px;
+}
+.container-p {
+    font-size: 25px;
+    padding-bottom: 2rem;
+}
+.img {
+    border: 1px solid grey;
+    border-radius: 0.2rem;
+}
+.img:hover {
+    /* border: 10px solid #faf8f7; */
+    opacity: 80%;
+    cursor: pointer;
+}
+.card-body h4 {
+    padding-top: 20px;
+    font-weight: 500;
+}
+.card-body p {
+    font-weight: light;
+}
+.card-body ul {
+    display: flex;
+    gap:1rem;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.card-link {
+    display: flex;
+    gap: 1rem;
+    padding-top: 30px;
+}

@@ -1,0 +1,260 @@
+/* :root {
+    --body_background:white;
+    --body_color: black;
+    --link_color: black;
+  
+  }
+  
+  [data-theme='dark']{
+    --body_background: #282c34;
+    --body_color: white;
+    --link_color: cyan;
+  } */
+.details {
+    background-color: var(--body_backgroundcolor);
+    color: var(--body_color);
+    margin: 50px;
+}
+/* .name {
+    background-color: #fafafa;
+} */
+.name p {
+    font-size: 18px;
+    margin-top: 170px;
+}
+.name h1 {
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+.description {
+    font-size: 25px;
+    padding-bottom: 150px;
+}
+/* .link ul{
+   list-style-type: none;
+   display: flex;
+   justify-content: space-between;
+   padding-top: 40px;
+}
+.link a {
+    color: var(--link_color);
+    text-decoration: none;
+    
+}
+.navs {
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    gap: 2rem;
+
+} */
+.about {
+    padding: 70px;
+}
+.intro {
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 30px;
+}
+.intro h2 {
+    font-size:35px;
+    font-weight:600 ;
+}
+.about p {
+    font-size: 25px;
+    padding-bottom: 2rem;
+}
+.more-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-btn {
+    border: 2px solid #c2bfbc;
+    border-radius: 2rem;
+    width: 200px;
+    height: 50px;
+    background-color: var(--body_backgroundcolor);
+    color: var(--body_color);
+    letter-spacing: 0.2rem;
+}
+.about-btn:hover {
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    color: white;
+}
+.project h2 {
+    font-size:35px;
+    font-weight:600 ;
+    padding-bottom: 20px; 
+}
+.featured-p {
+    font-size: 25px;
+    padding-bottom: 2rem;
+}
+.loanify {
+    display: flex;
+    justify-content: space-between;
+    gap:2rem;
+    border-bottom: 1px solid #c2bfbc;
+    padding-bottom: 100px;
+}
+.loanify ul {
+    display: flex;
+    padding: 15px 0 15px 15px;
+    gap: 2rem;
+    font-size: 12px;
+}
+.loanify img:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.xoxo {
+    display: flex;
+    justify-content: space-between;
+    gap:2rem;
+    border-bottom: 1px solid #c2bfbc;
+    padding-bottom: 100px;
+    padding-top: 50px; 
+}
+.xoxo img:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+.xoxo ul {
+    display: flex;
+    padding: 15px 0 15px 15px;
+    gap: 2rem;
+    font-size: 12px; 
+}
+.starwars {
+    display: flex;
+    justify-content: space-between;
+    gap:2rem;
+    border-bottom: 1px solid #c2bfbc;
+    padding-bottom: 100px;
+    padding-top: 50px;  
+}
+.starwars img:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+.starwars ul {
+    display: flex;
+    padding: 15px 0 15px 15px;
+    gap: 2rem;
+    font-size: 12px;
+}
+.about-loanify h3 {
+    font-size:25px;
+    font-weight:600 ;
+    padding-bottom: 20px;
+}
+.about-loanify p {
+    font-size: 20px;
+    line-height: 1.8rem;
+}
+
+.view-site {
+    border: 2px solid #c2bfbc;
+    height: 50px;
+    width: 170px;
+    background-color: var(--body_backgroundcolor);
+    color: var(--body_color);
+    letter-spacing: 0.2rem;
+    
+}
+.view-site:hover{
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    color: white;
+}
+.view-all-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.view-projects {
+    border: 2px solid #c2bfbc;
+    border-radius: 2rem;
+    width: 270px;
+    height: 50px;
+    background-color: var(--body_backgroundcolor);
+    color: var(--body_color);
+    letter-spacing: 0.2rem; 
+}
+.view-projects:hover {
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    color: white;
+}
+.resume h2 {
+    font-size:35px;
+    font-weight:600 ;
+    padding-bottom: 20px;
+    padding-top: 100px; 
+}
+.resume-info p {
+    font-size: 20px;
+    line-height: 1.8rem;
+    padding-bottom: 20px;
+}
+.skills h3 {
+    font-size:25px;
+    font-weight:600 ; 
+}
+.section-1, .section-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.section-1 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-2 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.education h3 {
+    font-size:25px;
+    font-weight:600;
+    padding-bottom: 30px;
+    padding-top: 30PX;
+}
+.education p {
+    font-size: 20px;
+    line-height: 1.8rem;
+    padding-bottom: 20px;
+}
+.resume-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px; 
+    padding-bottom: 70px;
+}
+.view-all-resume {
+    border: 2px solid #c2bfbc;
+    border-radius: 2rem;
+    height: 50px;
+    width: 270px;
+    background-color: var(--body_backgroundcolor);
+    color: var(--body_color);
+    letter-spacing: 0.2rem; 
+}
+.view-all-resume:hover {
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    color: white;
+}
