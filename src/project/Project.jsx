@@ -13,6 +13,7 @@ import instagram from './img/Instagram.png';
 import netflix from './img/Netflix.png';
 import perfume from './img/Perfume.png';
 import portfolio from './img/Portfolio.png';
+import profile from './img/Profile.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -151,14 +152,14 @@ const Project = () => {
               <li>REACT</li>
               <li>CSS</li>
              </ul>
-             <div className='card-link'><a><p>View site</p></a> <a><p>Source code</p></a></div>
+             <div className='card-link'><a href='https://oyindamola-a.vercel.app/'><p>View site</p></a> <a href='https://github.com/CodewithOyinda/my-portfolio'><p>Source code</p></a></div>
           </div>
           </div>
           <div className='card'>
           <img src={perfume} alt='perfume' style={{width:'370px', height:'300px'}} className='img'/>
           <div className="card-body">
           <h4>PERFUME</h4>
-             <p style={{paddingTop:'15px'}}>A site for recording your hobbies</p>
+             <p style={{paddingTop:'15px'}}>A Minimalist perfume design site</p>
              <ul>
               <li>HTML</li>
               <li>CSS</li>
@@ -167,16 +168,15 @@ const Project = () => {
           </div>
           </div>
           <div className='card'>
-          <img src={xoxo} alt='xoxo' style={{width:'370px', height:'300px'}} className='img'/>
+          <img src={profile} alt='xoxo' style={{width:'370px', height:'300px'}} className='img'/>
           <div className="card-body">
-          <h4>XOXO</h4>
-             <p style={{paddingTop:'15px'}}>A site for recording your hobbies</p>
+          <h4>SEARCH PROFILE</h4>
+             <p style={{paddingTop:'15px'}}>A site that searches for profiles by name</p>
              <ul>
               <li>REACT</li>
               <li>CSS</li>
-              <li>MATERIAL UI</li>
              </ul>
-             <div className='card-link'><p>View site</p> <p>Source code</p></div>
+             <div className='card-link'><a href='https://company-profile-roan.vercel.app/'><p>View site</p></a> <a href='https://github.com/CodewithOyinda/company-profile'><p>Source code</p></a></div>
           </div>
           </div>
         </Slider>
