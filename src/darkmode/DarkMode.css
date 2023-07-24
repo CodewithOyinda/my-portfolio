@@ -51,18 +51,18 @@
     z-index: 100;
 }
 .sun {
-    left: 5px;
+    left: 8px;
     fill: #fff;
     transition: 0.3s;
 }
 .moon {
-    left: 40px;
+    left: 42px;
     fill: #7e7e7e;
     transition: 0.3s;
 }
-.dark_mode_input:checked + .dark_mode_label svg.sun {
+.dark_mode_input:checked + .dark_mode_label.sun {
     fill: #7e7e7e;
 }
-.dark_mode_input:checked + .dark_mode_label svg.moon {
+.dark_mode_input:checked + .dark_mode_label.moon {
     fill: #fff;
 }
